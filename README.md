@@ -1,34 +1,34 @@
-# シンプルWeb予約システム
+# Simple Web Reservation System
 
-## 概要
+## Overview
 
-このプロジェクトは、HTML/CSS/JavaScriptのみで構築されたシンプルかつモダンなWeb予約システムです。スタイリッシュでプロフェッショナルなUIを備え、PC・スマートフォン両対応です。
+This project is a stylish and modern web reservation system built with pure HTML, CSS, and JavaScript. It features a professional UI and is fully responsive for both desktop and mobile devices.
 
-## 主な特徴
-- 直感的な英語UI（デフォルト）
-- スタイリッシュ＆モダンなデザイン
-- 入力バリデーション・予約完了画面付き
-- レスポンシブ対応
-- ローカルのみで動作（サーバ不要）
+## Features
+- Intuitive English UI (default)
+- Stylish & modern design
+- Input validation and reservation confirmation screen
+- Responsive layout for all devices
+- Works locally (no server required)
 
-## ファイル構成
+## File Structure
 
 ```
-index.html      ... 予約フォーム本体
-style.css       ... デザイン・レイアウト
-app.js          ... 入力処理・予約完了表示
-README.md       ... この説明書
+index.html   ... Main reservation form
+style.css    ... Design and layout
+app.js       ... Input handling & confirmation logic
+README.md    ... Project documentation
 ```
 
-## 使い方
-1. ファイル一式を同じフォルダに配置してください。
-2. `index.html` をブラウザで開くと、予約フォームが表示されます。
-3. 必要事項を入力し「Reserve」ボタンを押すと、予約完了画面が表示されます。
-4. 「Make Another Reservation」ボタンで再度予約が可能です。
+## How to Use
+1. Place all files in the same folder.
+2. Open `index.html` in your web browser.
+3. Fill in the required fields and click the "Reserve" button to complete your reservation.
+4. To make another reservation, click the "Make Another Reservation" button on the confirmation screen.
 
-## セットアップ手順
-1. このリポジトリをクローン、またはファイルをダウンロード
-2. 特別なセットアップ不要。`index.html`をダブルクリックでOK
+## Setup
+1. Clone this repository or download the files.
+2. No special setup is required. Simply double-click `index.html` to launch the app.
 
-## ライセンス
+## License
 MIT License 
