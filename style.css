@@ -123,6 +123,52 @@ footer {
   padding-top: 24px;
 }
 
+.footer-links {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #64748b;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.legal-content {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.legal-content h2 {
+  color: #2563eb;
+  font-size: 1.3rem;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.legal-content p {
+  color: #334155;
+  margin-bottom: 16px;
+}
+
+.legal-content .last-updated {
+  font-style: italic;
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-top: 32px;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 32px;
+}
+
 @media (max-width: 600px) {
   .container {
     padding: 18px 6px 12px 6px;
