@@ -1,0 +1,134 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+  margin: 0;
+  min-height: 100vh;
+  color: #222;
+}
+
+.container {
+  max-width: 420px;
+  margin: 48px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(30, 41, 59, 0.12);
+  padding: 32px 28px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  color: #2563eb;
+  letter-spacing: 1px;
+}
+header p {
+  color: #64748b;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #334155;
+}
+.form-group input {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s;
+  background: #f1f5f9;
+}
+.form-group input:focus {
+  border-color: #2563eb;
+  outline: none;
+  background: #fff;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #2563eb 0%, #1e40af 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #1e40af 0%, #2563eb 100%);
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.13);
+}
+
+.btn-secondary {
+  background: #f1f5f9;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-secondary:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+#confirmation {
+  text-align: center;
+  margin-top: 32px;
+}
+#confirmation h2 {
+  color: #22c55e;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+#confirmation p {
+  color: #334155;
+  font-size: 1.1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  padding-top: 24px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 18px 6px 12px 6px;
+    min-height: 100vh;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+} 
